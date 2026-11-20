@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">My<span>Profile.</span></a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobby">Hobby</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY WEBSITE</p>
+
+            <h1>Halo, Saya <span>Nama Kamu</span></h1>
+
+            <h2>Saya seorang <span id="typing"></span></h2>
+
+            <p class="description">
+                Selamat datang di website profil pribadi saya.
+                Saya senang belajar teknologi, mengembangkan
+                kreativitas, dan membuat sesuatu yang bermanfaat.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#about" class="btn-primary">Tentang Saya</a>
+                <a href="#contact" class="btn-outline">Hubungi Saya</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-glow"></div>
+            <img src="foto-profil.jpg" alt="Foto Profil">
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+
+        <div class="section-title">
+            <p>INTRODUCTION</p>
+            <h2>Tentang <span>Saya</span></h2>
+        </div>
+
+        <div class="about-card">
+            <div class="about-icon">
+                <i class="fas fa-user-graduate"></i>
+            </div>
+
+            <div>
+                <h3>Siapa Saya?</h3>
+                <p>
+                    Perkenalkan, nama saya Nama Kamu.
+                    Saya adalah seorang pelajar yang memiliki
+                    ketertarikan terhadap dunia teknologi,
+                    komputer, dan pemrograman.
+
+                    Saya selalu berusaha mengembangkan
+                    kemampuan dan mempelajari hal-hal baru.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+
+        <div class="section-title">
+            <p>MY ABILITIES</p>
+            <h2>Keahlian <span>Saya</span></h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <i class="fab fa-html5 html"></i>
+                <h3>HTML</h3>
+                <div class="progress">
+                    <div class="progress-bar" data-width="85%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-css3-alt css"></i>
+                <h3>CSS</h3>
+                <div class="progress">
+                    <div class="progress-bar" data-width="75%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-js js"></i>
+                <h3>JavaScript</h3>
+                <div class="progress">
+                    <div class="progress-bar" data-width="60%"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Hobby -->
+    <section class="section" id="hobby">
+
+        <div class="section-title">
+            <p>MY INTERESTS</p>
+            <h2>Hobi & <span>Minat</span></h2>
+        </div>
+
+        <div class="hobby-container">
+
+            <div class="hobby-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Programming</h3>
+                <p>Belajar membuat website dan aplikasi.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fas fa-gamepad"></i>
+                <h3>Gaming</h3>
+                <p>Menikmati permainan digital.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fas fa-book-open"></i>
+                <h3>Learning</h3>
+                <p>Mempelajari ilmu dan teknologi baru.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Hubungi <span>Saya</span></h2>
+        </div>
+
+        <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Mari Terhubung!</h3>
+            <p>Terima kasih telah mengunjungi website profil saya.</p>
+
+            <a href="mailto:emailkamu@gmail.com" class="btn-primary">
+                Kirim Email
+            </a>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Nama Kamu. All Rights Reserved.</p>
+        <p>Made with <span>♥</span> using HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
